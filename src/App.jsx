@@ -8,7 +8,6 @@ import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Chatboat from "./components/Chatboat";
-
 function App() {
   return (
     <div className="bg-gray-900 text-white min-h-screen">

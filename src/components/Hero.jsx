@@ -1,5 +1,6 @@
 import React from "react";
 import profileImage from "../assets/pkk.jpg";
+import GitHubCalendar from "react-github-calendar";
 import {
   FaFacebookF,
   FaTwitter,
@@ -30,7 +31,6 @@ const Hero = () => {
               Solution Pvt. Ltd., Noida, Uttar Pradesh, India. I specialize in
               React.js, Node.js, and more...
             </p>
-
             {/* Social Media Icons */}
             <div className="flex space-x-6 mb-8">
               <a
@@ -46,7 +46,6 @@ const Hero = () => {
                 <FaGithub className="text-2xl" />
               </a>
             </div>
-
             {/* Call to Action Button */}
             <a
               href="/PawanResume (2025).pdf"
@@ -55,7 +54,43 @@ const Hero = () => {
             >
               Download Resume
             </a>
+            <br />
+            <br />
+            <div className="bg-gray-800 p-4 rounded-xl shadow-lg mt-10 max-w-full">
+              <h3 className="text-white text-lg font-semibold mb-4">
+                GitHub Activity
+              </h3>
+              <div className="overflow-x-auto">
+                <div className="max-w-md">
+                  <GitHubCalendar
+                    username="PAWANKMR284"
+                    colorScheme="dark"
+                    blockSize={12} // Smaller blocks
+                    blockMargin={4} // Less space between blocks
+                    fontSize={12} // Smaller font
+                  />
+                </div>
+              </div>
+            </div>
           </div>
+
+          {/* GitHub Contribution Calendar
+          <div className="bg-gray-800 p-4 rounded-xl shadow-lg mt-10 max-w-full">
+            <h3 className="text-white text-lg font-semibold mb-4">
+              GitHub Activity
+            </h3>
+            <div className="overflow-x-auto">
+              <div className="max-w-md">
+                <GitHubCalendar
+                  username="PAWANKMR284"
+                  colorScheme="dark"
+                  blockSize={12} // Smaller blocks
+                  blockMargin={4} // Less space between blocks
+                  fontSize={12} // Smaller font
+                />
+              </div>
+            </div>
+          </div> */}
 
           {/* Right Side: Circular Image with Neon Glow */}
           <div className="w-full md:w-1/2 flex justify-end">
