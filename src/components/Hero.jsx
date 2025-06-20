@@ -1,4 +1,5 @@
 import React from "react";
+import profileImage from "../assets/pkk.jpg";
 import {
   FaFacebookF,
   FaTwitter,
@@ -60,7 +61,7 @@ const Hero = () => {
           <div className="w-full md:w-1/2 flex justify-end">
             <div className="relative w-48 h-48 md:w-64 md:h-64">
               <img
-                src="public\pkk.jpg" // Replace with your actual image URL
+                src={profileImage} // Replace with your actual image URL
                 alt="Pawan Kumar"
                 className="rounded-full object-cover w-full h-full border-4 border-transparent shadow-lg"
               />
