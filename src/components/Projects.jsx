@@ -13,6 +13,11 @@ const Projects = () => {
       description: "Movie browsing application",
     },
     {
+      title: "Task Management System ",
+      link: "https://taskhub284.netlify.app/",
+      description: "A task management application",
+    },
+    {
       title: "Tic Tac Toe",
       link: "https://tic-tac-toe-project-silk.vercel.app/",
       description: "Classic game implementation",
